@@ -1,5 +1,5 @@
 
 
-export function print(values: any) {
-    console.log(values);
+export function print(...values: any) {
+    console.log(...values);
 }
