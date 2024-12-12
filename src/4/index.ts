@@ -1,5 +1,5 @@
-import { readFullFileStrings } from "../utils/input";
-import { print } from "../utils/output";
+import { readFullFileStrings } from "@/utils/input";
+import { print } from "@/utils/output";
 import { Card } from "./Card";
 
 const CARDS_SIZE = 5;

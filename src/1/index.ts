@@ -1,5 +1,5 @@
-import { readFullFileNumbers } from "../utils/input";
-import { print } from "../utils/output";
+import { readFullFileNumbers } from "@/utils/input";
+import { print } from "@/utils/output";
 
 /** https://adventofcode.com/2021/day/1 */
 async function main() {

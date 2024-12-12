@@ -1,25 +1,19 @@
 {
-  "name": "adventofcode2021",
-  "version": "1.0.0",
-  "description": "https://adventofcode.com/2021/",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "type": "tsc --noEmit",
-    "lint": "eslint . --ext .ts"
-  },
-  "author": "Dmitrii Orlov",
-  "license": "ISC",
+  "name": "AdventOfCode2021",
+  "packageManager": "yarn@4.5.3",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.5.0",
-    "@typescript-eslint/parser": "^5.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.4.0",
-    "tsc": "^2.0.3",
-    "typescript": "^4.5.2"
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "run:1": "ts-node -r tsconfig-paths/register src/1/index.ts",
+    "run:2": "ts-node -r tsconfig-paths/register src/2/index.ts",
+    "run:3": "ts-node -r tsconfig-paths/register src/3/index.ts",
+    "run:4": "ts-node -r tsconfig-paths/register src/4/index.ts",
+    "run:5": "ts-node -r tsconfig-paths/register src/5/index.ts"
   },
   "dependencies": {
-    "@types/node": "^16.11.11",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
   }
 }

@@ -1,6 +1,6 @@
-import { readFullFileStrings } from "../utils/input";
-import { print } from "../utils/output";
-import { notEmpty } from "../utils/array";
+import { readFullFileStrings } from "@/utils/input";
+import { print } from "@/utils/output";
+import { notEmpty } from "@/utils/array";
 import { DIRECTION, Command } from "./Command";
 
 /** https://adventofcode.com/2021/day/2 */

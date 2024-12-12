@@ -1,5 +1,5 @@
-import { readFullFileStrings } from "../utils/input";
-import { print } from "../utils/output";
+import { readFullFileStrings } from "@/utils/input";
+import { print } from "@/utils/output";
 import { Line } from "./Line";
 
 /** https://adventofcode.com/2021/day/5 */
